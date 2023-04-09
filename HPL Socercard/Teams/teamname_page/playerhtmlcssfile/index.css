@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.player-wrap {
+   padding: 20px 0;
+   background-color: #166f85a1;
+   margin-bottom: 15px;
+   border-radius: 20px;
+   box-shadow: 5px 10px 15px #166f85a1;
+}
+
+.name-plyr {
+    color: #ffffffd6; 
+}
+
+.player-wrap a{
+    text-decoration: none;
+}
+
+.player-wrap img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.wrp-img-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}

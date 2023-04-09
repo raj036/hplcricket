@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #b4a1976b;
+}
+
+/* header section starts from here */
+
+.logo-header {
+    width: 114px;
+    height: 58px;
+    border-radius: 10px;
+}
+
+.heading-name-hpl {
+    font-size: 50px;
+    color: #b11d1d;
+    letter-spacing: 3.1px;
+
+}
+
+.header-part {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+.nav-bar {
+    background-color: #3e10105c;
+    padding: 14px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-bar ul li a:hover{
+    text-decoration: underline;
+    color: rgba(85, 85, 166, 0.61);
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* header section ends here */
+
+.wrap-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.live-page a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #22282354;
+    transition: all .5s ease-in-out;
+}
+
+.live-page a:hover{
+    background-color: #a3491c8d;
+}
+
+.live-page {
+    margin-top: 20px;
+}

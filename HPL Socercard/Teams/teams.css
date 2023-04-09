@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #b4a1976b;
+}
+
+.wrap-team {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.team-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.team-img {
+    text-align: center;
+    padding: 8px;
+}
+
+.team-img a {
+    text-decoration: none;
+}
+
+.team-img a:hover {
+    color: rgba(86, 17, 38, 0.653);
+    text-decoration: underline;
+}
